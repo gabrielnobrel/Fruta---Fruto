@@ -1,0 +1,21 @@
+.pessoa__imagem {
+    background-size: cover; /*Para que a imagem ocupe todo o background*/
+    background-position: center;
+    border-radius: 100%;
+    background-repeat: no-repeat; /*Não deixar que a imagem se repita*/
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.pessoa__imagem--Roberta {
+    background-image: url(/assets/img/pessoas/roberta.jpg);
+}
+
+.pessoa__imagem--Marcela {
+    background-image: url(/assets/img/pessoas/marcela.jpg);
+}
+
+.pessoa__imagem--Andreia {
+    background-image: url(/assets/img/pessoas/andreia.jpg);
+}
